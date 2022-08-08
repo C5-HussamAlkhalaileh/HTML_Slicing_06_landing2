@@ -1,0 +1,60 @@
+body {
+  padding: 0;
+  background-image: url(./images/flowers.jpg);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.div-navbar {
+  width: 100%;
+
+  background-color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.div-navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.div-navbar-header {
+  font-family: cursive;
+}
+
+.div-navbar-list{
+  margin-top: 25px;
+}
+
+.div-navbar-list:hover{
+  cursor: pointer;
+}
+.div-navbar-list{
+ padding-right: 20px; 
+}
+.div-content {
+  /*width: 300px;*/
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  margin-top: 12%;
+}
+.div-content,
+p {
+  font-size: large;
+  font-family: sans-serif;
+}
+button {
+  width: 130px;
+  opacity: 0.5;
+  text-align: center;
+  border: 2px black;
+  /*text-shadow: 2px 2px 5px rgb(0, 0, 0);*/
+  padding: 6px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
